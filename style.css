@@ -311,3 +311,58 @@ ul li a:hover {
     margin: 15px;
     
 }
+#certification{
+    width: 1300px;
+  
+    padding: 70px 20px;
+    text-align: center;
+
+}
+.cert-list {
+    height: 90px;
+      background-color: #4a174e85;
+    list-style-type: none;
+    padding: 0;
+    max-width: 90%;
+    margin: auto;
+    text-align: left;
+}
+.cert-list li{padding: 10px;
+font-size: 18px;
+border-bottom: 1px solid #351a4c;}
+
+.testimonial {
+    padding-bottom: 40px;
+  margin: 20px auto;
+  max-width: 600px;
+    font-weight: bold;
+  font-style: italic;
+}
+.btn-download {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #3e0242;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.scroll-top-btn{
+  
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  z-index: 99;
+     background-color: #4f2848;
+    color: rgb(235 221 233);
+  padding: 8px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+#resume h2{
+    color: #421a50;
+}
