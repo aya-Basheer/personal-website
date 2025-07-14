@@ -1,6 +1,11 @@
 
 :root{
+  --cert-color:#2a092b;
+  --span-color:#5a0c6195;
+  --main-color:#3c0a4f;
+  --bio-color:#926b8e54;
 --light-color:#fff;
+--them-color:#411232;
   --be-color:#f0cbe8;
   --text-color:#333;
   --header-color:#9d6095;
@@ -115,7 +120,7 @@ font-size: 22px;}
   cursor: pointer;
 }
 .page{
-  --light-color:#eee1eb;
+  /* --light-color:#eee1eb; */
   background-color: var(--be-color);
   transition: background-color 0.4s ease,color 0.4s ease; 
 }
@@ -126,19 +131,25 @@ font-size: 22px;}
   background: var(--header-color);
   padding: 10px;
   border-radius: 50%;
-  color:var(--light-color);
+  /* color:var(--light-color); */
+  color: var(--them-color);
   cursor: pointer;
   z-index: 999;
   font-size: 20px;
 }
 
 #theme-toggle:checked ~ .page{
-  --be-color:#121212;
+  --be-color:#2b1d2d;
 --text-color:#ddceda;
 --light-color:#3d0533;
+  --main-color:rgb(242, 231, 242);
+   --bio-color:#cfaccc;
+ --span-color:#3d134195;
+--them-color:#dec5da;
 
+  --cert-color:#c8aac9;
 }
- 
+
     /* .container::after{
        
         position: absolute;
@@ -199,10 +210,13 @@ nav ul {
       max-width: 600px;
   margin: 50px auto;
   text-align: center;
-  background: #926b8e54;
+  background: var(--bio-color);
   padding: 2rem;
   border-radius: 10px;
   animation: fadeInUp 1.5s ease-out;
+    }
+    .bio h2{
+      color: rgb(29, 21, 21);
     }
     .bio img {
       
@@ -296,7 +310,7 @@ h3{ color: #421a50}
 
 }
 .prog span{
-    background-color: var(--main-color);
+    background-color: var( --span-color);
     display: block;
     height: 100%;
     position: relative;
@@ -329,7 +343,7 @@ h3{ color: #421a50}
 }
  .main-heading{ text-align: center;}
     .main-heading h2{font-weight: normal;
-        color: #3c0a4f;
+        color: var(  --main-color);
         font-size: 40px;
         position: relative;
         margin-bottom: 70px;
@@ -414,6 +428,7 @@ ul li a {
 
 
 .crti-box i{
+  color:var(--cert-color);
     margin-right: 50px;
     font-size: 40px;
 }
